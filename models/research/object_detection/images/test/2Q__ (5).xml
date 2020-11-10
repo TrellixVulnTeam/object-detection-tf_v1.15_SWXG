@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>2Q__ (5).jpg</filename>
+	<path>C:\mask\images\2Q__ (5).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>305</width>
+		<height>165</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>aguacate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>53</xmin>
+			<ymin>59</ymin>
+			<xmax>158</xmax>
+			<ymax>145</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>aguacate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>65</xmin>
+			<ymin>9</ymin>
+			<xmax>155</xmax>
+			<ymax>70</ymax>
+		</bndbox>
+	</object>
+</annotation>

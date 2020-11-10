@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>images (13).jpg</filename>
+	<path>C:\mask\images\images (13).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>257</width>
+		<height>196</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>aguacate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>16</ymin>
+			<xmax>89</xmax>
+			<ymax>117</ymax>
+		</bndbox>
+	</object>
+</annotation>

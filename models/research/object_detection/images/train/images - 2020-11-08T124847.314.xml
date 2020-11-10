@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>images - 2020-11-08T124847.314.jpg</filename>
+	<path>C:\mask\images\images - 2020-11-08T124847.314.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>183</width>
+		<height>275</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>aguacate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>101</xmin>
+			<ymin>152</ymin>
+			<xmax>170</xmax>
+			<ymax>223</ymax>
+		</bndbox>
+	</object>
+</annotation>

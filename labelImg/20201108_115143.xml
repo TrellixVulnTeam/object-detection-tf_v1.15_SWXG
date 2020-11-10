@@ -1,0 +1,26 @@
+<annotation>
+	<folder>avocado</folder>
+	<filename>20201108_115143.jpg</filename>
+	<path>C:\mask\avocado\20201108_115143.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2944</width>
+		<height>2208</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>aguacate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1100</xmin>
+			<ymin>749</ymin>
+			<xmax>1547</xmax>
+			<ymax>1244</ymax>
+		</bndbox>
+	</object>
+</annotation>
