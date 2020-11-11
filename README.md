@@ -9,8 +9,11 @@ set run-tf1_15.yml enviroment in anaconda
 
 ~~~~~~~~~~~~~~~~~
   conda env create -f run-tf1_15.yml
-  conda activate run-tf1_15
+  conda activate respaldo-avo
+  conda install matplotlib
+  pip install opencv-python==4.4.0.42
   cd/models/research/object_detection
+  #open pycharm and select models file as a sources root
   python webcam_detection.py
 ~~~~~~~~~~~~~~~~~
 
@@ -22,7 +25,8 @@ set train-tf1_15.yml enviroment in anaconda
 
 ~~~~~~~~~~~~~~~~~
   conda env create -f train-tf1_15.yml
-  conda activate train-tf1_15
+  conda activate avo
+
 
   cd labelimg
 

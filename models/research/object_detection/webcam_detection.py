@@ -5,6 +5,9 @@ import sys
 import tarfile
 import tensorflow as tf
 import zipfile
+import sys
+
+sys.path.insert(0, 'D:\Documentos\Git\object-detection-tf_v1.15\models\research\object_detection')
 
 from collections import defaultdict
 from io import StringIO
@@ -17,7 +20,7 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util
 
 import cv2
-
+os.chdir("D:\Documentos\Git\object-detection-tf_v1.15\models\research\object_detection")
 cap = cv2.VideoCapture(0)   # if you have multiple webcams change the value to the correct one
 
 
