@@ -1,33 +1,26 @@
 Object detection
 ========
-The anaconda enviroments include all the libreraries
+The anaconda enviroments include all the libraries
 
-Run neural network
-~~~~~~~~~~~~~~~~~
+
+**Run neural network**
 
 set run-tf1_15.yml enviroment in anaconda
 
-Commands anaconda prompt
-^^^^^^^^^^^^
-
-conda env install run.yml
-
-.. code:: shell
-
-    conda env create -f run-tf1_15.yml
-    conda activate run-tf1_15
-    cd/models/research/object_detection
-    python webcam_detection.py
-
-
-Train neural network
 ~~~~~~~~~~~~~~~~~
+  conda env create -f run-tf1_15.yml
+  conda activate run-tf1_15
+  cd/models/research/object_detection
+  python webcam_detection.py
+~~~~~~~~~~~~~~~~~
+
+
+**Train neural network**
+
 
 set train-tf1_15.yml enviroment in anaconda
 
-
-.. code:: shell
-
+~~~~~~~~~~~~~~~~~
   conda env create -f train-tf1_15.yml
   conda activate train-tf1_15
 
@@ -61,3 +54,4 @@ set train-tf1_15.yml enviroment in anaconda
   python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix training/model.ckpt-3207 --output_directory new_graph
 
   python custom_model_webcam.py
+  ~~~~~~~~~~~~~~~~~
